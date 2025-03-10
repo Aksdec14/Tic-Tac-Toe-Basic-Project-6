@@ -1,0 +1,44 @@
+body{
+    background: rgb(103, 103, 197);
+    text-align: center;
+}
+h1{
+    color: azure;
+    font-size: 60px;
+}
+
+.search input{
+    width: 250px;
+    height: 35px;
+    margin-top: 5%;
+    border-radius: 20px;
+    border-color: aqua;
+    margin-bottom: 62px;
+}
+.search button{
+    border-radius: 50%;
+    padding: 7px;
+    color: brown;
+    border-color: rgb(181, 8, 8);
+}
+
+.containers{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.pages{
+    background-image: url('');
+    max-height: 20%;
+    max-width: 30%;
+    height: 200px;
+    width: 150px;
+    background-color: aqua;
+    margin-left: 50%;
+    transition: 2s;
+}
+
+.pages:hover{
+    width: 1000px;
+    height: 300px;
+}
